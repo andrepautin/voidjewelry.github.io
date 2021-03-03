@@ -1,1 +1,83 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+}
 
+p {
+    width: 500px;
+    border: 2px;
+    margin: auto;
+}
+
+p.a {
+    word-wrap: break-word;
+}
+
+li {
+    width: 400px;
+    border: 2px;
+    margin: auto;
+    text-align: left;
+}
+
+li.a {
+    word-wrap: break-word;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#home {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("https://www.techexplorist.com/wp-content/uploads/2020/11/Milky-Way-spiral-galaxy.jpg");
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("https://static01.nyt.com/images/2013/11/05/science/space/05planet/05planet-superJumbo.jpg");
+}
+
+#products {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("https://webstockreview.net/images/galaxy-clipart-cool-1.png");
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("https://cdn.vox-cdn.com/thumbor/6Iomw7DRPV2hmOpRTZVJ_GVArJA=/0x860:2828x2745/1200x800/filters:focal(0x860:2828x2745)/cdn.vox-cdn.com/uploads/chorus_image/image/49466135/eso1615a.0.jpg");
+}
