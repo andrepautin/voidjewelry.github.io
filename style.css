@@ -3,6 +3,13 @@ body {
     margin-top: 50px;
 }
 
+.box {
+    border: 1px solid #333333;
+    width: 500px;
+    height: 150px;
+    overflow-y: scroll;
+  }
+
 p {
     width: 500px;
     border: 2px;
@@ -59,6 +66,7 @@ section {
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed; 
+    overflow-y: scroll;
 }
 
 footer {
